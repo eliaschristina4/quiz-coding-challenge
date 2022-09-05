@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quiz.css">
+    <title>Quiz | Getting To Know You</title>
+</head>
+<body>
+
+    <h1>Quiz: Getting To Know You</h1>
+
+    <form action="">
+        <label for="name">Name:</label>
+            <input type="text" placeholder="First & last" required autofocus>
+            <br>
+        <label for="phone">Phone:</label>
+            <input type="tel" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            <br>
+        <label for="email">Email:</label>
+            <input type="email" placeholder="Email address" required>
+            <br>
+        <label for="date"> Today's date:</label>
+            <input type="date" required>
+            <br>
+        <label for="month">What month & year were you born?</label>
+            <input type="month" required>
+            <br>
+        <label for="answer">Are you ready for the long weekend?</label>
+            <input type="radio" name="answer" value="yes">Yes
+            <input type="radio" name="answer" value="no">No, I'm too excited to learn more next week!
+            <br>
+        <label for="plans">Which of the following are you planning on doing this weekend?</label>
+            <input type="checkbox">Sleeping
+            <input type="checkbox">Cooking
+            <input type="checkbox">Hangin out
+            <input type="checkbox">Studying
+            <input type="checkbox">Travelling
+            <br>
+        <label>What is your favorite color? Use the color picker!</label>
+            <input type="color" required>
+            <br>
+        <label for="">Tell me  what you're most excited to learn about during the program.</label>
+            <input type="textarea" placeholder="Your answer goes here" maxlength="300" required>
+            <br>
+        <label for="">What is your favorite store?</label>
+            <input type="url" placeholder="https://google.com" required>
+            <br>
+        <input type="submit">
+    </form>
+
+</body>
+</html>
